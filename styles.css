@@ -1,0 +1,133 @@
+body{
+    margin-top: 0;
+}
+main{
+    background-color: #D92323;
+    height: 1200px;
+    margin: 0 auto;
+    width: 95vw;
+    border-left: 10px solid #0D0D0D;
+    border-right: 10px solid #0D0D0D;
+    color:white;
+}
+.toptitle{
+    background-color: #0D0D0D;
+    height: 15rem;
+    text-align:left;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: end;
+    transform: skewY(-8deg);
+    transform: skewX();
+    position: relative;
+    top: -8rem;
+}
+h1{
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 0rem;
+    margin-left: 1.5rem;
+    font-family: angkor, serif;
+}
+
+/*
+.box1{
+    width: 30%;
+    border:1px solid white;
+    height: 100%;
+    display: inline-block;
+}
+*/
+.bkmainframe{
+    background-color: black;
+    height:400px;
+    margin-top: 120px;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    transform: skewY(4deg);
+    justify-content: center;
+}
+.leftbox, .rightbox{
+    transform: skewY(-3deg);
+}
+.leftbox{
+    /*border: 1px solid white;*/
+    display: inline-block;
+    margin-top: 2.6rem;
+    width:auto; height: 80%; /*width:20vw;*/
+    min-width: 160px;   /** width of myimage*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.myimage{
+    height:200px;
+    display: inline;
+    width: auto;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.name{
+    color:white;
+    font-size: 1.5rem;
+    
+}
+.rightbox{
+    /*border: 1px solid white;*/
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    display: inline-block;
+    width: auto; height: 80%; /*width:74vw;*/
+    min-width: 590px;
+}
+#aboutme{
+    color: white;
+    font-size: 4rem;
+    display: inline;
+    position: absolute;
+    z-index: 3;
+    background-color: #0D0D0D;
+    left:2rem;  bottom: 195px;
+    padding: 0 1.5rem;
+    font-style: italic;
+}
+.whiteframe{
+    background-color: white;
+    min-width: 600px;  width: 60%;
+    height: 300px;
+    transform: skewY(15deg);
+    transform: skewX(5deg);
+    box-sizing: border-box;
+    margin-left: 2.5rem;
+}
+.blackblock{
+    background-color: #0D0D0D;
+    min-width: 576px;  width: 96.5%;
+    height: 280px;
+    left: 10px; top:10px; 
+    transform: skewY(4deg);
+    transform: skewX(2deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whiteframe, .blackblock{
+    display: inline-block;
+    position: absolute;
+    /*  visibility: hidden; */
+    
+}
+#aboutmecontent{
+    color:white;
+    width: 90%;
+    position: absolute;
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    z-index: 2;
+    font-style: italic;
+    
+}
+
